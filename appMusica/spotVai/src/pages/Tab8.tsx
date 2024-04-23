@@ -80,6 +80,10 @@ const Tab8: React.FC = () => {
         
        
       </IonContent>
+
+      <IonButton routerLink='/tab2'>
+        VOLTAR AO PROCURAR
+      </IonButton>
     </IonPage>
   );
 };
