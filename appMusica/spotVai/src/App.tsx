@@ -20,6 +20,13 @@ import Tab5 from './pages/Tab5';
 import Tab6 from './pages/Tab6';
 import Tab7 from './pages/Tab7';
 import Tab8 from './pages/Tab8';
+import Tab9 from './pages/Tab9';
+import Tab10 from './pages/Tab10';
+import Tab11 from './pages/Tab11';
+import Tab12 from './pages/Tab12';
+import Tab13 from './pages/Tab13';
+import Tab14 from './pages/Tab14';
+import Tab15 from './pages/Tab15';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -70,6 +77,27 @@ const App: React.FC = () => (
           </Route>
           <Route exact path="/tab8">
             <Tab8 />
+          </Route>
+          <Route exact path="/tab9">
+            <Tab9 />
+          </Route>
+          <Route exact path="/tab10">
+            <Tab10 />
+          </Route>
+          <Route exact path="/tab11">
+            <Tab11 />
+          </Route>
+          <Route exact path="/tab12">
+            <Tab12 />
+          </Route>
+          <Route exact path="/tab13">
+            <Tab13 />
+          </Route>
+          <Route exact path="/tab14">
+            <Tab14 />
+          </Route>
+          <Route exact path="/tab15">
+            <Tab15 /> 
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />

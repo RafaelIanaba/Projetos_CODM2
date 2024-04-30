@@ -1,13 +1,12 @@
 import React from 'react';
 import {search} from 'ionicons/icons';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonInput, IonCard, IonButton, IonIcon, IonList, IonItem, IonLabel, IonAvatar, IonImg } from '@ionic/react';
-import './Tab2.css';
 
 const Tab2: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color={'secondary'}>
           <IonTitle>Procurar</IonTitle>
         </IonToolbar>
       </IonHeader>

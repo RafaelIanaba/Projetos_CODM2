@@ -2,30 +2,29 @@ import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonImg, 
   IonList, IonItem, IonLabel, IonFooter, IonIcon, IonText } from '@ionic/react';
 import { pause } from 'ionicons/icons';
-import './Tab3.css';
 
 const Tab3: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar className='ion-color-dark'>
+        <IonToolbar color={'secondary'}>
           <IonTitle>Reproduzindo</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonImg src='https://i.ytimg.com/vi/YrQLmElRT-E/maxresdefault.jpg' />
         <IonList>
-          <IonItem>
+          <IonItem color={'secondary'}>
             <IonLabel>Imprevisível</IonLabel>
           </IonItem>
-          <IonItem>
+          <IonItem color={'secondary'}>
             <IonLabel>Tribo da Periferia - Acústico na Cachu</IonLabel>
           </IonItem>
         </IonList>
       </IonContent>
 
       <IonList>
-          <IonItem>
+          <IonItem color='primary'>
           <IonIcon aria-hidden="true" icon={pause} />
             <IonLabel>Tribo da Periferia - Imprevisível</IonLabel>
           </IonItem>

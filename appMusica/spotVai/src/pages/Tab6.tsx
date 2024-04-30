@@ -5,8 +5,8 @@ const Tab6: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab 5</IonTitle>
+        <IonToolbar color={'secondary'}> 
+          <IonTitle>Tab 6</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>

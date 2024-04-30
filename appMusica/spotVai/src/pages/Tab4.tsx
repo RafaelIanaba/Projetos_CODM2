@@ -7,20 +7,20 @@ const Tab4: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color={'secondary'}>
           <IonTitle>Tribo da Periferia</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonImg src='https://pbs.twimg.com/profile_images/822810026150608897/dIJJVTJt_400x400.jpg' />
         <IonList>
-          <IonItem>
+          <IonItem color={'secondary'}>
             <IonLabel>Pianista da Rua 6</IonLabel>
           </IonItem>
-          <IonItem routerLink='/Tab3'>
+          <IonItem color={'secondary'} routerLink='/Tab3'>
             <IonLabel>Imprevisível</IonLabel>
           </IonItem>
-          <IonItem>
+          <IonItem color={'secondary'}>
             <IonLabel>Photoshop</IonLabel>
           </IonItem>
         </IonList>

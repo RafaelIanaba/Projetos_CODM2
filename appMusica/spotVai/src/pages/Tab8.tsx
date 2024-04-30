@@ -5,7 +5,7 @@ const Tab8: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color={'secondary'}>
           <IonTitle>Buscas recentes</IonTitle>
         </IonToolbar>
       </IonHeader>

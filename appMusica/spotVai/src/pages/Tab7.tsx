@@ -7,7 +7,7 @@ const Tab7: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar className='ion-color-dark'>
+        <IonToolbar color={'secondary'}>
           <IonTitle>Reproduzindo</IonTitle>
         </IonToolbar>
       </IonHeader>
@@ -18,7 +18,7 @@ const Tab7: React.FC = () => {
       </IonContent>
 
       <IonList>
-          <IonItem>
+          <IonItem color='primary'>
           <IonIcon aria-hidden="true" icon={pause} />
             <IonLabel>Edson e Hudson - Boate Azul</IonLabel>
           </IonItem>
